@@ -1,5 +1,5 @@
 {
-  "name": "GrunterProjects",
+  "name": "grunterprojects",
   "version": "0.0.1",
   "description": "Module for load project from json configuration file",
   "main": "index.js",
