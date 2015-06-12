@@ -9,7 +9,8 @@ The easiest way is to keep `grunter-projects` as a devDependency in your `packag
   "devDependencies": {
     "grunt": "~0.10",
     "grunter-projects": "0.0.1"
-  }
+  },
+  "projectsConfig": "./config/projects.json"
 }
 ```
 
@@ -34,6 +35,12 @@ You can use it into grunt task
 ```js
 // customGruntTask.js
 var myDir = grunt.config('projects').projectDirectory
+```
+
+Or you can invoke grunt and run task of specific project
+```bash
+grunt --project MyCustomProject
+grunt myCustomTask --project MyCustomProject 
 ```
 
 ----
