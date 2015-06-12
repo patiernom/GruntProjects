@@ -1,5 +1,5 @@
 {
-  "name": "grunterprojects",
+  "name": "grunter-projects",
   "version": "0.0.1",
   "description": "Module for load project from json configuration file",
   "main": "index.js",
@@ -11,6 +11,8 @@
     "url": "https://github.com/patiernom/GrunterProjects.git"
   },
   "keywords": [
+    "npm",
+    "module",
     "grunter",
     "grunt"
   ],
